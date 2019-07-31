@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54C0CE137EA6320ADFF1ADB1 /* Pods_Otto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D2587004F44AA6DC9507AC /* Pods_Otto.framework */; };
+		84345DCF22F14036000DB331 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84345DCE22F14036000DB331 /* AppDelegate.m */; };
+		84345DD222F14036000DB331 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84345DD122F14036000DB331 /* ViewController.m */; };
+		84345DD522F14036000DB331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84345DD322F14036000DB331 /* Main.storyboard */; };
+		84345DD722F14037000DB331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84345DD622F14037000DB331 /* Assets.xcassets */; };
+		84345DDA22F14037000DB331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84345DD822F14037000DB331 /* LaunchScreen.storyboard */; };
+		84345DDD22F14037000DB331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84345DDC22F14037000DB331 /* main.m */; };
+		84345DF922F17721000DB331 /* packer.php in Resources */ = {isa = PBXBuildFile; fileRef = 84345DE722F17716000DB331 /* packer.php */; };
+		84345DFA22F17721000DB331 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 84345DEB22F17716000DB331 /* RSA.m */; };
+		84345DFB22F17721000DB331 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 84345DED22F17716000DB331 /* unzip.c */; };
+		84345DFC22F17721000DB331 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 84345DEE22F17716000DB331 /* zip.c */; };
+		84345DFD22F17721000DB331 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 84345DEF22F17716000DB331 /* ioapi.c */; };
+		84345DFE22F17721000DB331 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 84345DF022F17716000DB331 /* mztools.c */; };
+		84345DFF22F17721000DB331 /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 84345DF622F17716000DB331 /* ZipArchive.m */; };
+		84345E0022F17721000DB331 /* JPLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84345DF822F17716000DB331 /* JPLoader.m */; };
+		84A82ECF22F1795C0040A678 /* JSPathRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A82ECD22F1795C0040A678 /* JSPathRequest.m */; };
+		84A82EDE22F17BA00040A678 /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = 84A82EDD22F17BA00040A678 /* Resource */; };
+		84A82EE422F186EE0040A678 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A82EE222F186EE0040A678 /* TableViewController.swift */; };
+		84A82EE522F186EE0040A678 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A82EE322F186EE0040A678 /* TableViewController.xib */; };
+		84A82EEA22F194FB0040A678 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A82EE822F194FB0040A678 /* LoginViewController.swift */; };
+		84A82EEB22F194FB0040A678 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A82EE922F194FB0040A678 /* LoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79D2587004F44AA6DC9507AC /* Pods_Otto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84345DCA22F14036000DB331 /* Otto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84345DCD22F14036000DB331 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84345DCE22F14036000DB331 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84345DD022F14036000DB331 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84345DD122F14036000DB331 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84345DD422F14036000DB331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84345DD622F14037000DB331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84345DD922F14037000DB331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84345DDB22F14037000DB331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84345DDC22F14037000DB331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84345DE722F17716000DB331 /* packer.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = packer.php; sourceTree = "<group>"; };
+		84345DE822F17716000DB331 /* JPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoader.h; sourceTree = "<group>"; };
+		84345DEA22F17716000DB331 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		84345DEB22F17716000DB331 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		84345DED22F17716000DB331 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		84345DEE22F17716000DB331 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		84345DEF22F17716000DB331 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		84345DF022F17716000DB331 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		84345DF122F17716000DB331 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		84345DF222F17716000DB331 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		84345DF322F17716000DB331 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		84345DF422F17716000DB331 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		84345DF522F17716000DB331 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		84345DF622F17716000DB331 /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = "<group>"; };
+		84345DF722F17716000DB331 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		84345DF822F17716000DB331 /* JPLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoader.m; sourceTree = "<group>"; };
+		84A82ECD22F1795C0040A678 /* JSPathRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPathRequest.m; sourceTree = "<group>"; };
+		84A82ECE22F1795C0040A678 /* JSPathRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPathRequest.h; sourceTree = "<group>"; };
+		84A82EDC22F17B590040A678 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A82EDD22F17BA00040A678 /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = SOURCE_ROOT; };
+		84A82EDF22F186A70040A678 /* Otto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Otto-Bridging-Header.h"; sourceTree = "<group>"; };
+		84A82EE222F186EE0040A678 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		84A82EE322F186EE0040A678 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		84A82EE822F194FB0040A678 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84A82EE922F194FB0040A678 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B7C289907813D7D90A068572 /* Pods-Otto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otto.release.xcconfig"; path = "Target Support Files/Pods-Otto/Pods-Otto.release.xcconfig"; sourceTree = "<group>"; };
+		D6DC478763A6DF2F0AFDB0D2 /* Pods-Otto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otto.debug.xcconfig"; path = "Target Support Files/Pods-Otto/Pods-Otto.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84345DC722F14036000DB331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C0CE137EA6320ADFF1ADB1 /* Pods_Otto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE3BE95E8805096E0A6335B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D2587004F44AA6DC9507AC /* Pods_Otto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D5D7D17B7F73BA5726B8B2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6DC478763A6DF2F0AFDB0D2 /* Pods-Otto.debug.xcconfig */,
+				B7C289907813D7D90A068572 /* Pods-Otto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84345DC122F14036000DB331 = {
+			isa = PBXGroup;
+			children = (
+				84345DCC22F14036000DB331 /* Otto */,
+				84345DCB22F14036000DB331 /* Products */,
+				7D5D7D17B7F73BA5726B8B2C /* Pods */,
+				2CE3BE95E8805096E0A6335B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84345DCB22F14036000DB331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84345DCA22F14036000DB331 /* Otto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84345DCC22F14036000DB331 /* Otto */ = {
+			isa = PBXGroup;
+			children = (
+				84A82EDD22F17BA00040A678 /* Resource */,
+				84345DE522F17716000DB331 /* Loader */,
+				84A82ECC22F1795C0040A678 /* Request */,
+				84A82EDC22F17B590040A678 /* AppDelegate.h */,
+				84345DCE22F14036000DB331 /* AppDelegate.m */,
+				84345DD022F14036000DB331 /* ViewController.h */,
+				84345DD122F14036000DB331 /* ViewController.m */,
+				84A82EE822F194FB0040A678 /* LoginViewController.swift */,
+				84A82EE922F194FB0040A678 /* LoginViewController.xib */,
+				84A82EE222F186EE0040A678 /* TableViewController.swift */,
+				84A82EE322F186EE0040A678 /* TableViewController.xib */,
+				84345DD322F14036000DB331 /* Main.storyboard */,
+				84345DD622F14037000DB331 /* Assets.xcassets */,
+				84345DD822F14037000DB331 /* LaunchScreen.storyboard */,
+				84345DDB22F14037000DB331 /* Info.plist */,
+				84345DDC22F14037000DB331 /* main.m */,
+				84A82EDF22F186A70040A678 /* Otto-Bridging-Header.h */,
+			);
+			path = Otto;
+			sourceTree = "<group>";
+		};
+		84345DE522F17716000DB331 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				84345DE622F17716000DB331 /* tools */,
+				84345DE922F17716000DB331 /* libs */,
+			);
+			path = Loader;
+			sourceTree = SOURCE_ROOT;
+		};
+		84345DE622F17716000DB331 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				84345DE722F17716000DB331 /* packer.php */,
+				84345DE822F17716000DB331 /* JPLoader.h */,
+				84345DF822F17716000DB331 /* JPLoader.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		84345DE922F17716000DB331 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				84345DEC22F17716000DB331 /* minizip */,
+				84345DEA22F17716000DB331 /* ZipArchive.h */,
+				84345DF622F17716000DB331 /* ZipArchive.m */,
+				84345DF722F17716000DB331 /* RSA.h */,
+				84345DEB22F17716000DB331 /* RSA.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		84345DEC22F17716000DB331 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				84345DED22F17716000DB331 /* unzip.c */,
+				84345DEE22F17716000DB331 /* zip.c */,
+				84345DEF22F17716000DB331 /* ioapi.c */,
+				84345DF022F17716000DB331 /* mztools.c */,
+				84345DF122F17716000DB331 /* crypt.h */,
+				84345DF222F17716000DB331 /* zip.h */,
+				84345DF322F17716000DB331 /* unzip.h */,
+				84345DF422F17716000DB331 /* mztools.h */,
+				84345DF522F17716000DB331 /* ioapi.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		84A82ECC22F1795C0040A678 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				84345DCD22F14036000DB331 /* AppDelegate.h */,
+				84A82ECD22F1795C0040A678 /* JSPathRequest.m */,
+				84A82ECE22F1795C0040A678 /* JSPathRequest.h */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84345DC922F14036000DB331 /* Otto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84345DE022F14037000DB331 /* Build configuration list for PBXNativeTarget "Otto" */;
+			buildPhases = (
+				F7507F9512CFB053DA564140 /* [CP] Check Pods Manifest.lock */,
+				84345DC622F14036000DB331 /* Sources */,
+				84345DC722F14036000DB331 /* Frameworks */,
+				84345DC822F14036000DB331 /* Resources */,
+				004AFE882114FD2B3599AC33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Otto;
+			productName = Otto;
+			productReference = 84345DCA22F14036000DB331 /* Otto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84345DC222F14036000DB331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = EF;
+				TargetAttributes = {
+					84345DC922F14036000DB331 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 84345DC522F14036000DB331 /* Build configuration list for PBXProject "Otto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84345DC122F14036000DB331;
+			productRefGroup = 84345DCB22F14036000DB331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84345DC922F14036000DB331 /* Otto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84345DC822F14036000DB331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84345DDA22F14037000DB331 /* LaunchScreen.storyboard in Resources */,
+				84A82EDE22F17BA00040A678 /* Resource in Resources */,
+				84345DD722F14037000DB331 /* Assets.xcassets in Resources */,
+				84A82EE522F186EE0040A678 /* TableViewController.xib in Resources */,
+				84345DF922F17721000DB331 /* packer.php in Resources */,
+				84A82EEB22F194FB0040A678 /* LoginViewController.xib in Resources */,
+				84345DD522F14036000DB331 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		004AFE882114FD2B3599AC33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otto/Pods-Otto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otto/Pods-Otto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Otto/Pods-Otto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7507F9512CFB053DA564140 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Otto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84345DC622F14036000DB331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84345E0022F17721000DB331 /* JPLoader.m in Sources */,
+				84345DD222F14036000DB331 /* ViewController.m in Sources */,
+				84345DFF22F17721000DB331 /* ZipArchive.m in Sources */,
+				84345DFB22F17721000DB331 /* unzip.c in Sources */,
+				84345DFE22F17721000DB331 /* mztools.c in Sources */,
+				84345DDD22F14037000DB331 /* main.m in Sources */,
+				84A82ECF22F1795C0040A678 /* JSPathRequest.m in Sources */,
+				84A82EE422F186EE0040A678 /* TableViewController.swift in Sources */,
+				84345DFC22F17721000DB331 /* zip.c in Sources */,
+				84345DFA22F17721000DB331 /* RSA.m in Sources */,
+				84345DCF22F14036000DB331 /* AppDelegate.m in Sources */,
+				84A82EEA22F194FB0040A678 /* LoginViewController.swift in Sources */,
+				84345DFD22F17721000DB331 /* ioapi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84345DD322F14036000DB331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84345DD422F14036000DB331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84345DD822F14037000DB331 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84345DD922F14037000DB331 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84345DDE22F14037000DB331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84345DDF22F14037000DB331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84345DE122F14037000DB331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DC478763A6DF2F0AFDB0D2 /* Pods-Otto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WR9DN7HHX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Otto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EF.Otto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Otto/Otto-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84345DE222F14037000DB331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C289907813D7D90A068572 /* Pods-Otto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WR9DN7HHX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Otto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EF.Otto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Otto/Otto-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84345DC522F14036000DB331 /* Build configuration list for PBXProject "Otto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84345DDE22F14037000DB331 /* Debug */,
+				84345DDF22F14037000DB331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84345DE022F14037000DB331 /* Build configuration list for PBXNativeTarget "Otto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84345DE122F14037000DB331 /* Debug */,
+				84345DE222F14037000DB331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84345DC222F14036000DB331 /* Project object */;
+}
